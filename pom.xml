@@ -13,16 +13,6 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 </properties> 
-  
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.sonarsource.scanner.maven</groupId>
-				<artifactId>sonar-maven-plugin</artifactId>
-				<version>3.2</version>
-			</plugin>
-		</plugins>
-	</build>
 	
   <dependencies>
     <dependency>
@@ -32,9 +22,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-	<plugin>
-      <groupId>org.sonarsource.scanner.maven</groupId>
-      <artifactId>sonar-maven-plugin</artifactId>
-      <version>3.2</version>
-  </plugin>
 </project>
